@@ -1,5 +1,5 @@
 name: mystar_app
-description: A simple Flutter app for MYSTAR Voice
+description: MYSTAR Voice Chat App
 publish_to: 'none'
 version: 1.0.0+1
 
@@ -10,6 +10,13 @@ dependencies:
   flutter:
     sdk: flutter
   url_launcher: ^6.3.0
+  record: ^5.1.2        # mic se record karne ke liye
+  just_audio: ^0.9.41   # audio chalane ke liye
+  permission_handler: ^11.3.1  # mic ki permission ke liye
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
 
 flutter:
   uses-material-design: true
